@@ -14,11 +14,9 @@ public class ActionsDemo {
 		driver.get("https://rahulshettyacademy.com/loginpagePractise/");
 		Actions a = new Actions(driver);
 		a.moveToElement(driver.findElement(By.id("username"))).click().keyDown(Keys.SHIFT).sendKeys("Hello").doubleClick().contextClick().build().perform();
-
-
-
-		
+	
 	
 	}
 }
+
 
